@@ -1036,9 +1036,5 @@ public class dashboard extends JFrame {
             }
         });
     } 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            new dashboard(10).setVisible(true);
-        });
-    }
+  
 }
