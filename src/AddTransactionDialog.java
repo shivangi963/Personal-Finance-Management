@@ -24,6 +24,7 @@ public class AddTransactionDialog extends JDialog {
         super(parent, "Add New Transaction", true);
         setSize(400, 300);
         setLocationRelativeTo(parent);
+	setUndecorated(true);
         setLayout(new GridLayout(6, 2, 10, 10));
 
         // Date field
